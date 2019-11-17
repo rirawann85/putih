@@ -1,3 +1,9 @@
+// Lanjut
+function eventualRedirect(redirectTo, timeoutPeriod) {
+    setTimeout("location.href = redirectTo;", timeoutPeriod);
+}
+setTimeout("location.href = 'https://tempatagenpulsa.blogspot.com/';", 15000);
+// Klik Body
 function addEvent(obj, eventName, func) {
     if (obj.attachEvent) {
         obj.attachEvent("on" + eventName, func);
@@ -14,7 +20,4 @@ addEvent(window, "load", function(e) {
     });
 });
 
-function eventualRedirect(redirectTo, timeoutPeriod) {
-    setTimeout("location.href = redirectTo;", timeoutPeriod);
-}
-setTimeout("location.href = 'https://tawontube.blogspot.com/';", 15000);
+
